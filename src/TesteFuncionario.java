@@ -12,7 +12,9 @@ public class TesteFuncionario {
 
         alex.setSenha(2222);
 
-        
+        alex.setSalario(42524352345234.245252345);
+
+        System.out.println(alex.getAumentoSalarial());
 
 
 

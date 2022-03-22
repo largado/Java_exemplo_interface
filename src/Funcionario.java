@@ -2,11 +2,11 @@ public class Funcionario {
     private String nome;
     private String cpf;
     private String rg;
-    private double salario;
+    protected double salario;
     private String matricula;
 
     public double getAumentoSalarial(){
-        return this.salario * 0.1;
+        return this.salario * 0.01;
     }
 
     public String getCpf() {
