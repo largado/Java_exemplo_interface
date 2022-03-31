@@ -1,8 +1,9 @@
-public class Gerente extends  Funcionario {
+public class Gerente extends Funcionario implements Autenticavel {
     private int senha;
     private String sobrenome;
 
     public void setSenha(int senha){
+
         this.senha = senha;
     }
 
@@ -21,6 +22,7 @@ public class Gerente extends  Funcionario {
     }
 
     public double getAumentoSalarial(){
+
         return super.getAumentoSalarial() + super.getSalario();
     }
 
